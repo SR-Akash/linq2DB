@@ -8,6 +8,6 @@ namespace BMS.Core.Helpers
 {
     public enum Status
     {
-        Delete = 0, Active = 1, InActive = 2
+        Delete = 0, Active = 1, InActive = 2, Future = 3
     }
 }
