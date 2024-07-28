@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMS.Core", "BMS.Core\BMS.Core.csproj", "{060A5E51-DD71-40E1-A522-5E442D44B23A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMS.Entity", "BMS.Entity\BMS.Entity.csproj", "{1A01195C-EF95-44CE-998F-5D7E3A53F90D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMS.DTO", "BMS.DTO\BMS.DTO.csproj", "{AA27AD1E-0CEF-4E23-9585-99013E6C6203}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMS.Helper", "BMS.Helper\BMS.Helper.csproj", "{D47E41E3-F98F-4DEB-93BD-3F78F8EC98B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMS.Infrastructure", "BMS.Infrastructure\BMS.Infrastructure.csproj", "{B9C65988-91D7-4446-BFBD-6FF61C583197}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMS.Localization", "BMS.Localization\BMS.Localization.csproj", "{001E7B5E-EFFC-4AFE-BD75-6E91EC670978}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMS.API", "BMS.API\BMS.API.csproj", "{FA9230B7-E675-485A-9524-078D3690DBE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{060A5E51-DD71-40E1-A522-5E442D44B23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060A5E51-DD71-40E1-A522-5E442D44B23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060A5E51-DD71-40E1-A522-5E442D44B23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060A5E51-DD71-40E1-A522-5E442D44B23A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A01195C-EF95-44CE-998F-5D7E3A53F90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A01195C-EF95-44CE-998F-5D7E3A53F90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A01195C-EF95-44CE-998F-5D7E3A53F90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A01195C-EF95-44CE-998F-5D7E3A53F90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA27AD1E-0CEF-4E23-9585-99013E6C6203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA27AD1E-0CEF-4E23-9585-99013E6C6203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA27AD1E-0CEF-4E23-9585-99013E6C6203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA27AD1E-0CEF-4E23-9585-99013E6C6203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47E41E3-F98F-4DEB-93BD-3F78F8EC98B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47E41E3-F98F-4DEB-93BD-3F78F8EC98B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47E41E3-F98F-4DEB-93BD-3F78F8EC98B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47E41E3-F98F-4DEB-93BD-3F78F8EC98B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C65988-91D7-4446-BFBD-6FF61C583197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C65988-91D7-4446-BFBD-6FF61C583197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C65988-91D7-4446-BFBD-6FF61C583197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C65988-91D7-4446-BFBD-6FF61C583197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001E7B5E-EFFC-4AFE-BD75-6E91EC670978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001E7B5E-EFFC-4AFE-BD75-6E91EC670978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001E7B5E-EFFC-4AFE-BD75-6E91EC670978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001E7B5E-EFFC-4AFE-BD75-6E91EC670978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9230B7-E675-485A-9524-078D3690DBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9230B7-E675-485A-9524-078D3690DBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9230B7-E675-485A-9524-078D3690DBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9230B7-E675-485A-9524-078D3690DBE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {680BCC44-F283-43D0-9C97-B27CE9C57FCB}
+	EndGlobalSection
+EndGlobal

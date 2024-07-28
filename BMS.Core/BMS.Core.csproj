@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Interfaces\Configuration\**" />
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Interfaces\Configuration\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Interfaces\Configuration\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CryptoHelper" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BMS.DTO\BMS.DTO.csproj" />
+    <ProjectReference Include="..\BMS.Entity\BMS.Entity.csproj" />
+    <ProjectReference Include="..\BMS.Helper\BMS.Helper.csproj" />
+    <ProjectReference Include="..\BMS.Infrastructure\BMS.Infrastructure.csproj" />
+    <ProjectReference Include="..\BMS.Localization\BMS.Localization.csproj" />
+  </ItemGroup>
+
+</Project>

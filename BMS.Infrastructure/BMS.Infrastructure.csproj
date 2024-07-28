@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\CopyMe.PostgreSQL.tt.txt" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\DataAnnotations.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\DataModel.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\EditableObject.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\Equatable.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\Humanizer.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.PostgreSQL.Tools.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.PostgreSQL.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.Tools.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\LinqToDB.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\MultipleFiles.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\NotifyDataErrorInfo.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\NotifyPropertyChanged.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\ObsoleteAttributes.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\PluralizationService.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\T4Model.ttinclude" />
+    <None Remove="C:\Users\azim_\.nuget\packages\linq2db.postgresql\3.6.0\contentFiles\any\any\LinqToDB.Templates\Validation.ttinclude" />
+    <None Remove="OpenIddict.EntityFrameworkCore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="linq2db.SqlServer" Version="5.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.32" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
+    <PackageReference Include="OpenIddict.AspNetCore" Version="3.1.1" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BMS.Entity\BMS.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
